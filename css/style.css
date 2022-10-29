@@ -170,7 +170,6 @@ header:hover{
     
 }
 .about{
-    height: 2000px;
     margin-top: 40px;
 }
 .about_1{
@@ -216,4 +215,56 @@ header:hover{
 }
 .about_button1:hover{
     background-color: rgb(29, 82, 161);
+}
+
+/* start of partners */
+
+.center{
+    margin-top: 100px;
+    text-align: center;
+   
+    
+}
+
+#partner_eg{
+    text-align: center;
+    width: 60%;
+    padding :px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.cen_p1{
+    display: inline-block;
+    width: 70%; 
+    font-size: 22px;
+    margin-bottom: 45px;
+    margin-top: 0px;
+    color: rgb(9, 30, 66);
+}
+.cen_p2{
+    font-size: 22px;
+    color: rgb(9, 30, 66);
+
+}
+.center h2{
+    font-size: 33px;
+    color: rgb(13 41 88);
+    
+}
+
+.partner_img{
+    margin: auto;
+    width: 50%;
+}
+
+.partner_img img{
+    margin: auto;
+    padding: 0px 40px;
+    width: 30%;
+    height: 150px;
+    width: 150px;
+}
+#partner_img5{
+    height: 80px;
 }
