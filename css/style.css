@@ -6,7 +6,7 @@ body{
    
 }
 .container{
-    width: 1350px;
+    width: 1300px;
     margin: auto; 
 }
 .row{
@@ -336,7 +336,7 @@ header:hover{
 
 /* start of feed back */
 .feedback{
-    height: 3000px;
+    margin-bottom: 120px;
 }
 .feed_1{
     padding: 200px;
@@ -392,6 +392,109 @@ header:hover{
     text-align: end;
     margin-bottom: -200px;
     margin-top: 200px;
-    background-color: aquamarine;
+
+}
+
+.fa-minus{
+    width: 75px;
+    border-radius: 5px;
+    color: rgb(168, 168, 209);
+    background-color: rgb(168, 168, 209);
+    margin-right: 10px;
+}
+
+.fa-dir{
+    color: rgb(82, 82, 126);
+    background-color: whitesmoke;
+    font-size: 25px;
+    padding: 7px;
+    margin: 0px 10px;
+}
+
+.fa-chevron-left{
+    margin-left: 20px;
+}
+
+/* start of download */
+.down_img{
+    float: right;
+    width: 150px;
+    margin: 10px 15px;
+}
+.last_p{
+    font-family: 'Noto Serif', serif;  
+    font-weight: 600;
+    font-size: 20px;
+    color:rgb(9, 30, 66);
+    display: inline-block;
+    width: 900px;
+    text-align: right;
+}
+
+.down{
+    margin: auto;
+}
+
+
+/* footer */
+
+.container_foot{
+    background-color:rgb(9, 30, 66);
+}
+
+.foot_con{
+    margin: 0px;
+    width: 210px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px;
     
+}
+
+.row_foot{
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+}
+
+.foot_con a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.foot_con h4{
+    font-size: 16px;
+    
+}
+
+.footer_logo{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+}
+
+.footer_support1{
+    font-size: 18px;
+}
+
+.footer_support{
+    width: 80px;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(6, 6, 59);
+    margin-left: 5px;
+    color: white;
+}
+
+#foot_c1{
+    width: 150px;
+    margin-top:10px ;
+}
+.foot_hr{
+    width: 1300px;
+    border: none;
+    height: 1px;
+    background-color: white;
+
 }
